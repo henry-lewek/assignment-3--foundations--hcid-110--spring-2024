@@ -1,0 +1,9 @@
+$background-image-url: "../comps/focus.jpg";
+$view-collumn: 60px;
+$view-gutter: 20px;
+$view-unit: ($view-collumn + $view-gutter);
+$view-horizontal-unit: 22px;
+$view-horizontal-line: 3px;
+$background-image-width: 1600;
+$background-image-height: 2494;
+$aspect-ratio: $background-image-width / $background-image-height;

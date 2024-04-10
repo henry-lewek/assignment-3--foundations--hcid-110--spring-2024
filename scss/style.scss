@@ -1,0 +1,354 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+
+body {
+  height: calc(100vw / #{$aspect-ratio});
+  margin: 0;
+  position: relative;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: auto;
+}
+
+.arrow {
+  position: relative;
+  margin-top: ($view-horizontal-unit * 14);
+  text-align: center;
+  margin-left: 730px;
+}
+
+
+.logo {
+  margin-left: 650px;
+  position: absolute;
+  top: ($view-horizontal-unit * 4);
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-img {
+  margin-right: 10px;
+  display: flex;
+}
+
+.name {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  top: ($view-horizontal-unit * 10);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  word-spacing: 4px;
+}
+
+.image-container {
+  margin-top: 700px;
+}
+
+.phone {
+  text-align: center;
+  position: relative;
+}
+
+.phone img {
+  margin-left: 4px;
+  position: relative;
+  margin-top: 27px;
+  z-index: 2;
+}
+
+.phone .dot-1 {
+  position: absolute;
+  margin-left: -190px;
+  margin-top: 243px;
+}
+
+.phone .dot-2 {
+  position: absolute;
+  margin-left: -314px;
+  margin-top: 327px;
+}
+
+.phone .dot-3 {
+  position: absolute;
+  margin-left: -314px;
+  margin-top: 526px;
+}
+
+.phone .black-dot {
+  position: absolute;
+  margin-left: -186px;
+  margin-top: 435px;
+}
+
+.phone .line {
+  position: absolute;
+  margin-left: -174px;
+  margin-top: 445px;
+}
+
+.great-feature-1 {
+  position: relative;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  width: 280px;
+  margin-left: 260px;
+  margin-top: -503px;
+  margin-bottom: 223px;
+  line-height: 1.5;
+}
+
+.great-feature-1 h3 {
+  margin-top: ($view-horizontal-unit * 2);
+}
+
+.great-feature-2 h3 {
+  margin-top: ($view-horizontal-unit * 2);
+}
+
+.great-feature-2 {
+  position: relative;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  width: 280px;
+  margin-left: 974px;
+  margin-top: -503px;
+  margin-bottom: 205px;
+  line-height: 1.5;
+}
+
+// .great-feature-3 {
+//   font-family: Helvetica Neue;
+//   font-weight: 300;
+//   display: block;
+//   width: 280px;
+//   margin-left: 970px;
+//   margin-top: ($view-horizontal-unit * 2);
+//   line-height: 1.5;
+// }
+
+// .great-feature-4 {
+//   font-family: Helvetica Neue;
+//   font-weight: 300;
+//   display: block;
+//   width: 280px;
+//   margin-left: 970px;
+//   line-height: 1.5;
+// }
+
+h3 {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.grey-box {
+  margin-top: -44px;
+  font-family: Helvetica;
+  position: relative;
+  top: -22px;
+  height: 400px;
+  background-color: rgb(227, 227, 227);
+}
+
+.grey-box p {
+  color: rgb(131, 131, 131);
+  margin-top: -15px;
+  margin-left: 198px;
+  font-weight: lighter;
+  width: 540px;
+  line-height: 1.5;
+}
+
+h4 {
+  padding-top: ($view-horizontal-unit * 2.5);
+  margin-left: 200px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.grey-box img {
+  margin-left: ($view-unit * 10) + ($view-gutter * 2);
+  margin-top: -($view-horizontal-unit * 7);
+}
+
+h5 {
+  text-align: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  font-weight: 200;
+}
+
+.grey-box .play {
+  margin-left: -459px;
+  margin-top: 83px;
+  position: absolute;
+}
+
+.grey-box .bar {
+  width: 370px;
+  margin-left: -376px;
+  margin-top: 82px;
+  position: absolute;
+}
+
+.grey-box .apple {
+  margin-left: -1120px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.grey-box .android {
+  margin-left: -1035px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.grey-box .windows {
+  margin-left: -950px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.grey-box .mouse {
+  margin-left: -917px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.quote p {
+  margin-top: -12px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 13px;
+}
+
+.people {
+  position: relative;
+  margin-top: 40px;
+  width: 100vw;
+  position: absolute;
+}
+
+.single-person {
+  position: absolute;
+  margin-top: 74px;
+  margin-left: -650px;
+  z-index: 1;
+}
+
+.people .mouse {
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 873px;
+  z-index: 2;
+}
+
+.touch h6 {
+  margin-top: 410px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.touch p {
+  font-family: 'Raleway';
+  font-weight: 300;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(131, 131, 131);
+}
+
+.touch .images {
+  position: absolute;
+  display: flex;
+  margin-top: 7px;
+  margin-left: 630px;
+  margin-right: 672px;
+  justify-content: space-evenly;
+}
+
+.touch .mouse {
+  position: absolute;
+  margin-left: 732px;
+  margin-top: 27px;
+}
+
+.twitter {
+  width: 34px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.facebook {
+  width: 34px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.pinterest {
+  width: 34px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.google {
+  width: 34px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.linkedin {
+  width: 34px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.youtube {
+  width: 34px;
+  text-align: center;
+}
+
+.touch .images .mouse {
+  position: relative;
+  margin-left: 735px;
+  margin-bottom: -32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  font-weight: 300;
+  margin-top: 113px;
+  margin-right: 530px;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.footer p {
+  margin-right: 25px;
+}
